@@ -1,0 +1,12 @@
+doctype html
+html
+ head
+  title Tareas
+ body
+  h1= task.description
+  p= task.createdAt
+  p
+   strong Autor:
+   span= task.user.email
+  form(action=`/tasks/${task.id}?_method=DELETE` method="POST")
+   input(type="submit" value="Eliminar")
