@@ -12,6 +12,6 @@
   "dependencies": {
     "cookie-session": "^1.4.0",
     "cookie-sessions": "0.0.2",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
